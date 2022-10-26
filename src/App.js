@@ -10,8 +10,7 @@ import Calcuator from "./components/Calculator";
 function App() {
   return (
   <div className="container">
-          <Title/>
-
+      <Title/>
       <Calcuator />
     </div>
   );

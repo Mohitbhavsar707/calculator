@@ -32,7 +32,7 @@ function Calculator() {
       return;
     }
 
-    // handle plush and minus sign
+    // handles plus and minus sign pm(plus minus)
     if (value === "pm") {
       if (operand === "") return;
       //get the last char
@@ -84,7 +84,6 @@ function Calculator() {
         }
 
       } else if (operand.slice(-1) === "ac") {
-
         setOperand("");
         // Check if we have a prev answer > 0
         if (answer > 0)
@@ -121,7 +120,6 @@ function Calculator() {
         setOperand(`${eval(operand)}${value}`)
         break;
       case "%":
-        console.log('percentage + Test for all viewers')
         break;
       case "/":
         setOperand(`${eval(operand)}${value}`);
@@ -149,7 +147,6 @@ function Calculator() {
 
     
     <div className='calculator'>
-     {/* <div className='header'>h</div> */}
 
       <div className='c-wrapper'>
         
