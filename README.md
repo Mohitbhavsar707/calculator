@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Mohit Bhavsar Calculator APP using React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
